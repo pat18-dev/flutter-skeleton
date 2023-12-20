@@ -61,7 +61,7 @@ class App extends StatelessWidget {
               theme: AppTheme.light,
               localizationsDelegates: [
                 FormBuilderLocalizations.delegate,
-                ...context.localizationDelegates
+                ...context.localizationDelegates,
               ],
               supportedLocales: context.supportedLocales,
               builder: (context, child) {

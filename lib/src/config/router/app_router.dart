@@ -44,7 +44,7 @@ class AppRouter extends GoRouter {
                 title: "Demo",
                 args: DemoScreenArguments(Home.routeName),
               ),
-            )
+            ),
           ],
           errorBuilder: (context, state) => const NotFoundPage(),
           redirect: (context, state) {

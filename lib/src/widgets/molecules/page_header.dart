@@ -22,7 +22,7 @@ class PageHeader extends StatelessWidget implements PreferredSizeWidget {
           Text(
             tr("Skeleton"),
             style: Theme.of(context).textTheme.displayLarge,
-          )
+          ),
         ],
       ),
     );

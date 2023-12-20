@@ -49,7 +49,7 @@ class _LoginState extends State<Login> {
                       label: tr("Name"),
                       hintText: tr("Enter your name"),
                       validator: FormBuilderValidators.compose([
-                        FormBuilderValidators.required(errorText: "Required")
+                        FormBuilderValidators.required(errorText: "Required"),
                       ]),
                     ),
                     const SizedBox(height: 8),
@@ -60,9 +60,9 @@ class _LoginState extends State<Login> {
                       label: tr("Password"),
                       hintText: tr("Enter your password"),
                       validator: FormBuilderValidators.compose([
-                        FormBuilderValidators.required(errorText: "Required")
+                        FormBuilderValidators.required(errorText: "Required"),
                       ]),
-                    )
+                    ),
                   ],
                 ),
               ),
